@@ -4,6 +4,7 @@ public class Estudante {
     private String nome;
     private float idade;
     private float[] notas;
+    private boolean aprovado;
 
     public void imprimirAluno() {
         System.out.println("Nome: " + nome);
@@ -28,13 +29,22 @@ public class Estudante {
         media = (soma / this.notas.length);
 
         if (media > 6) {
-            System.out.println("Aluno aprovado - Media : " + media + " Soma :" + soma);
+            this.aprovado = true;
+
         } else {
-            System.out.println("Aluno reprovado - Media: " + media + " Soma :" + soma);
+            this.aprovado = false;
+
+        }
+        if(this.aprovado) {
+            System.out.println("Aluno aprovado - Situação : Aprovado   Soma :" + soma);
+        }else{
+            System.out.println("Aluno aprovado - Situação : Reprovado  Soma :" + soma);
         }
 
 
     }
+
+    //getters and setters
     public  void setNome(String nome){
         this.nome = nome;
     }
@@ -60,6 +70,9 @@ public class Estudante {
         return this.notas;
     }
 
+    public boolean isAprovado(){
+        return this.aprovado;
+    }
 
 
 }

@@ -23,6 +23,10 @@ public class EsdutanteTest {
 
         System.out.println(aluno.getNome());
 
+        System.out.println("---------------------------------");
+
+        System.out.println("Aprovado? " + aluno.isAprovado());
+
 
     }
 }
