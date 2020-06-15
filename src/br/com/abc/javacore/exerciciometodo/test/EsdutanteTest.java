@@ -6,20 +6,22 @@ public class EsdutanteTest {
 
     public static void main(String[] args) {
 
-        int[] valorNotas = new int[]{6,8,8};
 
         Estudante aluno = new Estudante();
 
-        aluno.nome = "João das Neves";
-        aluno.idade = 35;
-
-        aluno.notas = valorNotas;
+        aluno.setNome("João das Neves");
+        aluno.setIdade(-1);
+        aluno.setNotas(new float[]{5, 3, 8});
 
         System.out.println("---------------------------------");
         aluno.imprimirAluno();
         System.out.println("---------------------------------");
 
-        aluno.calculoMedia(valorNotas);
+        aluno.calculoMedia();
+
+        System.out.println("---------------------------------");
+
+        System.out.println(aluno.getNome());
 
 
     }
