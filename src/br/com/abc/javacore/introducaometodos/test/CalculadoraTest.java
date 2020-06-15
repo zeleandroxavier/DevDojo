@@ -21,5 +21,9 @@ public class CalculadoraTest {
 
         System.out.println("Continua a execução!!!!");
 
+        int[] numeros = new int[]{2,5,8,9,8,8};
+        calc.somaArray(numeros);
+        calc.somaVarArgs(2,5,8,9,8,8,12);
+
     }
 }

@@ -16,9 +16,11 @@ public class ProfessorTest {
         prof2.nome = "Joao das coves";
         prof2.rg = "922211-5";
 
-        prof.imprime(prof);
+        System.out.println("Dentro do professor");
 
-        prof.imprime(prof2);
+        prof.imprime();
+
+        prof2.imprime();
 
 
     }
