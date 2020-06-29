@@ -1,4 +1,4 @@
-package br.com.abc.javacore.blocosdeinicializacao.classes;
+package br.com.abc.javacore.modificadorestatico.classes;
 
 public class Cliente {
     // 1 - Alocado espaço na memoria para o objeto que será criado
@@ -7,6 +7,7 @@ public class Cliente {
     // 4 - O construtor é executado
 
     private int[] parcelas;
+    
     {
         parcelas = new int[100];
         System.out.println("Dentro do bloco de inicialização");

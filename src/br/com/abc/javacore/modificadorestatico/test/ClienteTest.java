@@ -1,10 +1,13 @@
-package br.com.abc.javacore.blocosdeinicializacao.test;
+package br.com.abc.javacore.modificadorestatico.test;
 
-import br.com.abc.javacore.blocosdeinicializacao.classes.Cliente;
+
+import br.com.abc.javacore.modificadorestatico.classes.Cliente;
 
 public class ClienteTest {
     public static void main(String[] args) {
         Cliente c = new Cliente();
+        Cliente c1 = new Cliente();
+        Cliente c2 = new Cliente();
 
         System.out.println("Exibindo quantidade de parcela possiveis");
 
