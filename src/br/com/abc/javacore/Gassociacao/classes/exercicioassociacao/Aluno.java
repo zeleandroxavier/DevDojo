@@ -19,8 +19,7 @@ public class Aluno {
         System.out.println("idade: " + this.idade);
         if(this.seminario != null) {
             System.out.println("Seminário inscrito: " + this.seminario.getTitulo());
-        }else{
-            System.out.println("Aluno não está inscrito no seminário");
+            return;
         }
 
     }

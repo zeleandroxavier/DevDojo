@@ -12,7 +12,7 @@ public class AssociacaoTest {
         Aluno aluno2 = new Aluno("Joana", 20);
 
         Seminario sem = new Seminario("Como programar java");
-        Professor prof = new Professor(" Yoda", "Usar a força para programar");
+        Professor prof = new Professor("Yoda", "Usar a força para programar");
         Local local = new Local("Rua das araras", "mato");
 
         aluno.setSeminario(sem);
