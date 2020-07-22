@@ -6,9 +6,9 @@ import br.com.abc.javacore.Hherancao.classes.Pessoa;
 
 public class HerancaTest {
     public static void main(String[] args) {
-        Pessoa p = new Pessoa();
+        Pessoa p = new Pessoa("Gina");
 
-        p.setNome("Gina");
+
         p.setCpf("01265456");
         Endereco end = new Endereco();
 
@@ -20,9 +20,8 @@ public class HerancaTest {
         p.imprime();
 
         System.out.println("---------------------------------------------");
-        Funcionario f = new Funcionario();
+        Funcionario f = new Funcionario("Augusto");
 
-        f.setNome("Augusto");
         f.setCpf("6545815");
         f.setSalario(15000);
         f.setEndereco(end);
