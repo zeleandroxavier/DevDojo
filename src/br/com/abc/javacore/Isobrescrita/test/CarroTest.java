@@ -5,12 +5,4 @@ public class CarroTest {
     private String nome;
     private String cpf;
 
-    public static void main(String[] args) {
-        System.out.println("");
-    }
-
 }
-
-    public static void main(String[] args) {
-
-    }

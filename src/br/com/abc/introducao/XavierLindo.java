@@ -1,10 +1,4 @@
-package br.com.abc.introducao;
-
-import java.util.Objects;
-
-
-
-public class OlaMundo {
+public class XavierLindo {
 
     public static void main(String[] args) {
         System.out.println("Olá Mundo");
