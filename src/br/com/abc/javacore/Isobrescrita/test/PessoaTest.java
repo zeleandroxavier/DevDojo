@@ -8,5 +8,9 @@ public class PessoaTest {
         p.setNome("Joaquina na esquina");
         p.setIdade(300);
         System.out.println(p);
+        Pessoa p2 = new Pessoa();
+        p2.setNome("João na esquina");
+        p2.setIdade(200);
+        System.out.println(p2);
     }
 }
